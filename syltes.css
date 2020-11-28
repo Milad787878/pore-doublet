@@ -1,0 +1,198 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: #FFD700
+}
+
+#navbar {
+    position: fixed;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: black !important
+}
+
+.hero-image {
+    background-image: url("./assets/images/HomePage.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-text {
+    border-radius: 30px;
+    padding: 20px;
+    opacity: 0.8;
+    background-color: gray;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: -5%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#header-img {
+    border-radius: 50%;
+}
+
+.intro {
+    font-weight: bold;
+    margin-top: 20px
+}
+
+.description {
+    color: black !important
+}
+
+#sharifButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #0F58B8;
+    border-radius: 20px;
+    margin-left: 0
+}
+
+#sharif {
+    color: white;
+    margin: auto;
+}
+
+.accordion {
+    border-radius: 50px;
+}
+
+.card {
+    background-color: #D4AF37;
+    color: black
+}
+
+.card-body {
+    background-color: white;
+}
+
+.acc-text {
+    font-weight: bold;
+    color: black
+}
+
+.title {
+    text-align: center;
+    margin: 20px 0 70px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page {
+    width: 100vw;
+    height: 85vh !important;
+}
+
+.asuump-items {
+    padding: 20px;
+    text-align: justify;
+    margin: 0px 0;
+}
+
+video {
+    margin-top: 40px
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    border-top: 1px solid #BABBBD;
+    padding: 15px;
+}
+
+#dr-block {
+    margin-left: 10vw !important;
+    text-align: center;
+}
+
+#contact {
+    color: #FFD700;
+    font-size: 20px;
+}
+
+.final {
+    direction: rtl;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#locIcon {
+    margin-right: 5px;
+    border-radius: 50%;
+    width: 25px
+}
+
+@media only screen and (max-width: 400px) {
+    .hero-text {
+        margin-top: 0px;
+        position: absolute;
+        top: 50%;
+        left: 50%
+    }
+    .intro {
+        font-size: 13px;
+    }
+    #title {
+        margin: 30px 0
+    }
+    .asuump-items {
+        font-size: 15px !important;
+        text-align: center;
+    }
+    .acc-text {
+        font-size: 13px;
+    }
+    .description {
+        font-size: 12px;
+    }
+    ul {
+        margin-right: 50px
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-text {
+        position: absolute;
+        top: 50%;
+        left: 45%
+    }
+    #header-img {
+        width: 50vw;
+        height: 30vh;
+    }
+    .intro {
+        font-size: 15px;
+    }
+    .asuump-items {
+        font-size: 20px !important;
+        text-align: center;
+    }
+    .acc-text {
+        font-size: 13px;
+    }
+    .description {
+        font-size: 12px;
+    }
+    ul {
+        margin-right: 50px
+    }
+}

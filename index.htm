@@ -1,0 +1,174 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poer Doublet Flow</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./syltes.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <button id="sharifButton"><a class="navbar-brand" href="http://www.sharif.ir/home" target="_blank" id="sharif">Sharif.ir</a></button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a style="margin-left: 40px" class="nav-item nav-link" href="#content">Content<span class="sr-only">(current)</span></a>
+                <a style="margin-left: 40px" class="nav-item nav-link" href="#assumptions">Assumption</a>
+                <a style="margin-left: 40px" class="nav-item nav-link" href="#animations">Animations</a>
+            </div>
+        </div>
+    </nav>
+    <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#content">Content</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#assumptions">Assumptions<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#animations">Animations<span class="sr-only"></span></a>
+                </li>
+            </ul>
+        </div>
+        <button id="sharifButton"><a class="navbar-brand" href="http://www.sharif.ir/home" target="_blank" id="sharif">Sharif.ir</a></button>
+    </nav> -->
+    <!-- Header -->
+    <div class="hero-image">
+        <div class="hero-text">
+            <img src="./assets//images/uni.jpg" alt="uni" id="header-img">
+            <h3 class="intro">Subject : Pore Doublet Flow</h3>
+            <h4 class="intro">Teacher : Dr. Shahab Ayatollahi</h4>
+            <h5 class="intro">Milad Alghosi</h5>
+            <h5 class="intro">Alireza Aklaghifard</h5>
+        </div>
+    </div>
+    <!-- Content - Accardion -->
+    <div id="content"></div>
+    <br><br><br>
+    <div class="container page">
+        <h1 class="title">Content</h1>
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <h6 class="acc-text">According to the Pc equation, at the same condition non-wetting phase tends to invade the larger pores because of the lower capillary pressure</h6>
+                  </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        <h6 class="description">This tendency leads to special trapping mechanism named bypassing. The main trapping mechanism in drainage is bypassing although during the imbibition process non-wetting phase could be trapped by bypassing mechanism but it is
+                            not the major trapping mechanism</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <h6 class="acc-text">A reservoir rock consists of a complex network of branching and reuniting pore elements of differing sizes and geometry</h6>
+                  </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        <h6>
+                            <h6 class="description">
+                                Any successful analysis of the displacement process should eventually recognize this complex network. However one can begin by understanding the processes which take place in the simpler elements of the network. The mechanisms of drainage displacement
+                                and imbibition displacement are best illustrated by visualization of flow experiments in transparent capillary networks etched on glass plates
+                            </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Assumption of Videos and concept -->
+    <div id="assumptions"></div>
+    <br><br><br>
+    <div class="container page">
+        <h1 class="title">Assumptions</h1>
+        <ul>
+            <li>
+                <h3 class="asuump-items">Pore 1 is smaller than pore 2</h3>
+            </li>
+            <li>
+                <h3 class="asuump-items">Pores are assumed to be water wet</h3>
+            </li>
+            <li>
+                <h3 class="asuump-items">Viscositites and densitites of oil and water are the same</h3>
+            </li>
+            <li>
+                <h3 class="asuump-items">the pressure drop across the pores remains constant until trapping</h3>
+            </li>
+            <li>
+                <h3 class="asuump-items">Trapping occurs if displacement proceeds faster in one pore than in the other</h3>
+            </li>
+        </ul>
+    </div>
+    <!-- Videos - Animations -->
+    <div id="animations"></div>
+    <br><br><br>
+    <div class="container page">
+        <h1 class="title">Animations</h1>
+        <div class="container">
+            <div class="row">
+                <video controls autoplay class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <source src="assets/videos/1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video controls autoplay class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <source src="assets/videos/2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video controls autoplay class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <source src="assets/videos/3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="row videos">
+                <video controls autoplay class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <source src="assets/videos/4.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video controls autoplay class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <source src="assets/videos/5.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <footer class="container-fluid">
+        <div class="row final">
+            <div id="dr-block">
+                <a target="_blank" href="http://che.sharif.edu/~web/index.php?Service=profile&Task=SHOW&Item=ayatollahi" id="contact">Contact us</a href="">
+            </div>
+            <div id="location">
+                Tehran - Azadi street - Sharif university of technology
+                <span><img id="locIcon" src="./assets/images/locationIcon.jpg" alt="locIcon"></span>
+            </div>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+
+</html>
